@@ -1,5 +1,5 @@
 
-const Counter = ({ count, setCount }) => {
+const Counter = ({ count }) => {
 
   const decrement = () => setCount((prevCount) => prevCount - 1);
   const increment = () => setCount((prevCount) => prevCount + 1);
