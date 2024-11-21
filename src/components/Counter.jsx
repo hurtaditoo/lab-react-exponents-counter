@@ -1,9 +1,5 @@
 
-const Counter = ({ count }) => {
-
-  const decrement = () => setCount((prevCount) => prevCount - 1);
-  const increment = () => setCount((prevCount) => prevCount + 1);
-
+const Counter = ({ count, decrement, increment }) => {
   return (
     <div className="counter-container">
       <p className="counter-value">{count}</p>
